@@ -2,37 +2,32 @@ import React from "react";
 
 class Player extends React.Component {
   state = {
-    index: 3,
+    index: 2,
     currentTime: "0:00",
     musicList: [
       {
-        name: "Nice piano and ukulele",
-        author: "Royalty",
-        img: "https://www.bensound.com/bensound-img/buddy.jpg",
-        audio: "https://www.bensound.com/bensound-music/bensound-buddy.mp3",
-        duration: "2:02",
-      },
-      {
-        name: "Gentle acoustic",
-        author: "Acoustic",
-        img: "https://www.bensound.com/bensound-img/sunny.jpg",
-        audio: "https://www.bensound.com//bensound-music/bensound-sunny.mp3",
-        duration: "2:20",
-      },
-      {
-        name: "Corporate motivational",
-        author: "Corporate",
-        img: "https://www.bensound.com/bensound-img/energy.jpg",
-        audio: "https://www.bensound.com/bensound-music/bensound-energy.mp3",
-        duration: "2:59",
-      },
-      {
-        name: "Slow cinematic",
-        author: "Royalty",
-        img: "https://www.bensound.com/bensound-img/slowmotion.jpg",
+        name: "Red",
+        author: "Taylor Swift",
+        img: "https://pbs.twimg.com/media/E4LtA9ZXwAsgl1V?format=jpg&name=large",
         audio:
-          "https://www.bensound.com/bensound-music/bensound-slowmotion.mp3",
-        duration: "3:26",
+          "https://firebasestorage.googleapis.com/v0/b/music-6fc30.appspot.com/o/02%20Red%20(Taylor's%20Version).m4a?alt=media&token=070662d0-a7d1-4ff0-a41b-103a1b951239",
+        duration: "3:43",
+      },
+      {
+        name: "I Knew You Were Trouble",
+        author: "Taylor Swift",
+        img: "https://pbs.twimg.com/media/E4LtA9ZXwAsgl1V?format=jpg&name=large",
+        audio:
+          "https://firebasestorage.googleapis.com/v0/b/music-6fc30.appspot.com/o/04%20I%20Knew%20You%20Were%20Trouble%20(Taylor's.m4a?alt=media&token=01a643d8-c27e-42c2-aee0-81622f831f47",
+        duration: "3:39",
+      },
+      {
+        name: "All Too Well",
+        author: "Taylor Swift",
+        img: "https://pbs.twimg.com/media/E4LtA9ZXwAsgl1V?format=jpg&name=large",
+        audio:
+          "https://firebasestorage.googleapis.com/v0/b/music-6fc30.appspot.com/o/05%20All%20Too%20Well%20(Taylor's%20Version).m4a?alt=media&token=d81bfaa5-6ca5-412e-bb7e-b0ee487aa337",
+        duration: "5:29",
       },
     ],
     pause: false,
